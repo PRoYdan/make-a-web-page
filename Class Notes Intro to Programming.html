@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html>
+	<head> 
+	<link rel="stylesheet" type="text/css" 	href="style_for_notes_page.css">
+	<title>Notes Sheet </title>
+	<meta charset="utf-8"/>
+	</head>
+	<div class="background"> </div>
+		<div class="banner"><b>Class Notes for Intro to Programming</b></div>
+			<div class ="body">
+				<b> HTML</b> -  heart of web, hyper text markup <b>language</b>,reference other documents, links to other pages,structure<br>
+				<b>text content</b> - what is seen<br>
+				<b>markup</b> - what looks like<br>
+				<b>CSS</b> - <b>C</b>ascading <b>S</b>tyle <b>S</b>heets controls style of page,avoids repetition,several referenced in html, most specific gets applied<br>
+				<b>tags</b> - tag always in &#60;&#62;&#60;&#47;&#62; void tags have no &#60;&#47;&#62;<br>
+				<b> em tag</b> - <em>emphasis - italic </em><br>
+				<b>a tag</b> - for making links <br>
+				Example of <b>a tag</b> This website is <a href="http://www.amazon.com/"> <b>my favorite</b> </a><br>
+				<b>img</b> &#60;img source = url alt ="text"&#62; void tag, no close tag &#47;&#62; just &#62;<br>
+				Example of <b>img tag</b><br>
+				<div class="screenshot"><img src="images2/grace.jpg" alt="can't load"> </div>
+				<b>div tag(element)</b> - block, define boxes<br>
+				<b>span tag (element) </b> - inline
+				<b>br tag vs p tag</b> br ends line where p creates imaginary box that can have height and width<br>
+				<b>Attribute</b> - equals something, property for input element - tags can have multiple attributes  &#60;a href = "www.udacity.com" &#60;&#47;&#62; sets href attribute of an anchor tag to Udacity url<br>	
+				<b>inline tags</b> - a,span,br,img,strong <br>
+				<b>block tags</b> - div, p,form - can give height/width<br>
+				<b>Element</b> - everything in &#60;&#62; element &#60;&#47;&#62;<br>
+				<b>DOM</b> - Document Object Model<br>
+				<b>HTTP</b> - The Hypertext Transfer Protocol (HTTP) - main protocol of web<br>
+				<b>What a complete HTML doc looks like</b><br>
+					&#60;!DOCTYPE HTML&#62;<br>	
+					&#60;html&#62; opening html tag - surrounds whole document<br>
+						&nbsp;&nbsp;&nbsp;&#60;head&#62; css, java and title goes in head<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;title&#62;&#60;&#47; title&#62; name of document when in browser<br>
+						&nbsp;&nbsp;&nbsp;&#60;&#47;head&#62;	<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;body&#62; content of the page<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;b&#62;content&#60;b&#62;<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;&#47;body&#62;<br>
+					&#60;&#47;html&#62; closing html tag<br>
+		</div>
+				
+		<div class ="body">
+			<b><br>What is a web page</b><br>  
+		 		A web page is a text document written in a language called HTML. Web browsers read these documents, and then interpret and display them.
+		
+			<b><br>How Coding Works</b><br>
+				Coding happens when programmers write text in a language that a computer can understand. The computer can then follow the 		instructions the programmer wrote. For example, the computer might do this by making text like this:
+		
+			<b><br>Computers are Stupid</b><br>
+				Programmers need to write exactly the way a computer understands (also known as writing with correct "syntax").
+				For example, if you forget to close a bold tag, the computer won't be able to figure out what you had intended to make bold. This "stupidity" can be very frustrating, but it also gives programmers incredible power: if you know how to talk to a computer than you can tell it do do anything you want.
+
+			    <b><br>Programmers Can't Remember Everything</b><br>
+				There are too many details to keep everything in your head. And that's okay. If you forget how to make text italic in HTML, you can always just look it up.
+
+			<b><br>Basic HTML Vocabulary</b><br>
+				You will be using HTML in the next few lessons, so it will be helpful if you're comfortable with the jargon.
+				Tag: An HTML tag is always contained within angled brackets. Most tags have an opening tag  and a closing tag. Some tags (called "void" tags) 	do not require a closing tag (like the break (br) tag).
+
+				Element: An HTML element refers to everything within a set of opening and closing tags.
+				Attribute: This is a property of an HTML element. For example, to set the href attribute of an anchor tag to the Udacity URL use an a.
+
+				<!--<div class ="banner">Programmers Can't Remember Everything</div>-->
+	
+	</div>		
+		<b>Escape characters come in very handy - click link below for full list</b><br>
+			<a href="http://www.theukwebdesigncompany.com/articles/entity-escape-characters.php?PHPSESSID=8cbbddde9a9c9825467546f1c98fe119">click here </a>
+		<div class ="body"> <!---this body is for computer portion of note!-->
+			<p>
+				<b>Introduction to serious programming</b>, Computer does nothing without a program  any compuation can be done on computer, program tells it what steps to take
+				Python - named after Montey - its an interpreter - language we will be using - the interpreter is a program even..we program the program the interprets
+				"The programs you'll write in this class will be Python code. Those will be input to another program which is a Python interpreter that follows the instructions in your code and it does that by following the instruction in its code... and you'll be able to run all that using your web browser."
+			</p>
+			<p>
+				<b>Think like a programmer moment </b>
+					 follows instructions in code - prodecural thinking
+					 quote demonstrates technological - empathy for how computers work
+					 python program, interpreter, web browser different versions of the same thing - abstract thinking. 
+			</p>
+			<p>	Andy Practice
+				Debugging  	one of the five ways programmers think. 
+					Errors
+						IndentationError: unexpected indent - indentation very important
+						SyntaxError: invalid syntax - dont cap P
+					Bugs - mistakes in code, develop system for finding and fixing
+
+				<b>Focus attention (VARIABLE)</b><br>
+					What is a variable?<br>
+					What does it mean to assign value to a variable?<br>
+					How is = differnt in math and programming (= vs ==)<br>
+			</p>
+
+
+				
+			<p>
+				<b>Getting started with Python</b>
+					Print - Python command prints something out
+					Expression - what is after the print command it can be simple like 3 or a complex computation. (anything that is valid python)
+			</p>
+
+			<p>
+				Print 7*7*24 * 60
+				Difference between computer science and computer programming
+				- need computer language to remove ambiguity - very clear cut rules (biweekly (every two weeks or twice a week))
+				- Do not want verbosity, need very specific steps for computer
+				- Errors occur when not part of python language. Learn the python language. 2+2+ 
+				- Python has gammar - must follow rules
+			</p>
+			<p>
+				<b> Notation for Python Backus </b>- Naur Form (lead of fortran language)
+				<b> Backus - Naur Form </b> purpose to precisely describe the language in simple concise terms.
+				&#60;Non -terminal&#62; ->replacment  Non-terminal means something we are not finished with
+				terminals on the right side, terminals are never on the left side of rule, once we get to terminal we are done, nothing to replace.<br>
+				<b>Derivation </b>- start with non terminal and follow rules to derive sequence of terminals
+			</p>
+				<div class="screenshot"><img src="images2/derivation.jpg" alt="can't load"> </div>
+			<p>
+				Python grammar for arithmetic expressions
+				Expression is something that has value 
+				Start with  Non terminal - expression operator expression - value action value
+				second example of Derivation
+			</p>
+			<p><b>Quiz</b><br>
+				# Write Python code to print out how far light travels <br>
+				# in centimeters in one nanosecond.  Use the values
+				# defined below.    <br>
+				# speed_of_light = 299792458   meters per second<br>
+				# centimeters = 100            one meter is 100 centimeters<br>
+				# nanosecond = 1.0/1000000000  one billionth of a second<br>
+				print 299792458 * 100 * (1.0/1000000000) (use <b>.</b> in order to get ratio, if you use only integers you get back 
+				only integers 
+				2.7 GHz, 2.7 billion cycles per second
+
+			</p>
+		  <p><b>variable</b> introduced by assignment statement #name = expression, they can very, lower case, will error if not defined,
+		  		give value to data, can change value easily<br>
+				speed_of_light =299.... #number of meters light travels in a second <br>
+				print speed_of_light <br>
+				billionth =1.0/1000000000 <br>
+				nanostick = print speed_of_light * billionth #length in meters<br>
+				nanostick = print speed_of_light * billionth  #length in centimeters<br>
+				cycles_per_second = 27000000000 #2.7 GHz<br>
+				#almost like refreshing the cycles per sec when change the GHz value to 2.8..<br>
+				Remember!!! = equals assignment == equals equal<br>
+			</p>
+			<p><b>String</b> sequence of characters surrounded by quotes<br>
+				print 2 + 2 = 4 and print '2' + '2' = 22<br>
+				single or double quotes - "" may be better so you can use ' in your string.<br>
+				Plus operator name ="Pam"  print "hello " + name output hello Pam (concatinates two strings) add space to hello string<br>
+				can print many strings print "hello " + "Pam" + "!" . Can't + "string"  + 9 but can multiply string by number "!" * 9 is valid
+				print "!" * 9 output !!!!!!!!!
+				[] used to extract from the string <b>!!! start with 0!!!</b><br>
+				print "udacity" [0] output u<br>
+				("udacity"[1+1]) output a<br>
+				print "udacity"[-1] output y<br>
+				s[0], (s+s)[0] = same output because the first letter of the concacted s is still the same as the single s<br>
+			</p>
+				<div class="screenshot"><img src="images2/stringquiz.jpg" alt="can't load"> </div>
+
+				<b>Substring</b> sub sequence in a string - string[expression:expression] - 
+				S for string first start last stop -1 (stops at one before the second expression - 
+				(this construct allows to select any sequence)<br>
+			
+				<div class="screenshot"><img src="images2/lastpositionminus1.JPG" alt="can't load"> </div>
+				
+				s = 'audacity' 
+				[:] - nothing in first spot start from beginning, nothing in second go all the way to the end <br>
+				print 'U' + s[2:]
+				Udacity
+				s ="audacity" <br>
+				s[2:]
+				'dacity'<br>
+				s[2:7]
+				'dacit' <br>
+				s[2:8]
+				'dacity' <br>
+			<p>
+				Nothing on left start from beginning, nothing on right go all the way to the end.<br>
+				[0:1-1] =[0:0] = Indexing [0:0] it is an empty string 
+				<b>(starting a 0 and ending right before zero there are no characters) <br>
+				s + empty string is s '' is an empty string, 's' is not
+				</b>
+			</p>
+				<div class="screenshot"><img src="images2/selectionwhenindexing.JPG" alt="can't load"> </div>
+
+				<b>Find</b><br>
+				Case matters  'test'.find('Test') output -1 (needs to match case)<br>
+				<div class="screenshot"><img src="images2/stringsinstrings_Find.JPG" alt="can't load"> </div>
+				
+				<div class="screenshot"><img src="images2/stringquiz2.JPG" alt="can't load"></div>
+
+				Find with numbers
+				<div class="screenshot"><img src="images2/FindwithNumbers.JPG"  alt="can't load"></div>
+				And more
+				<div class="screenshot"><img src="images2/strings3.JPG"  alt="can't load"></div>
+
+			<p>	Play with strings in Python
+				print "Example 1: using find to print the second occurrence of a sub-string"
+				print "test".find("t")
+				print "test".find("t", 1)
+				print "Example 2: using a variable to store first location"
+				first_location = "test".find("t") # here we store the first location of "t"
+				print "test".find("t", first_location+1) # then we use that location to find the second occurrence.
+				print "Example 3: using find to get rid of exclamation marks!!"
+				example = "Wow! Python is great! Don't you think?"
+				first = example.find('!')
+				second = example.find('!', first + 1)
+				new_string = example[:first] + example[first+1:second] + example[second+1:]
+				print new_string # oops, I should probably replace the !s periods
+				new_string = example[:first] +'.'+ example[first+1:second] +'.'+ example[second+1:]
+				print new_string
+			</p>
+
+			<b>Sring Quiz (edge case) - if string is empty sring the second answer will not work</b>
+			<div class="screenshot"><img src="images2/EdgeCaseInStrings.JPG" alt="can't load"> </div>
+			
+			   Remember - The div tag defines a division or a section in an HTML document. The div tag is used to group block-elements to format them with CSS.
+
+			   [:5] - stops at one before 
+			   <div class="screenshot"><img src="images2/abstractThinkingSolution.JPG"  alt="can't load"></div>
+			 <div class ="body">
+ 			<p>You can define functions (also known as procedure) to provide the required functionality. 
+ 				Here are simple rules to define a function in Python.
+				Function blocks begin with the keyword def followed by the function name and parentheses ( ( ) ).
+				Any input parameters or arguments should be placed within these parentheses. You can also define parameters inside these parentheses.
+				The first statement of a function can be an optional statement - the documentation string of the function or docstring.
+				The code block within every function starts with a colon (:) and is indented.
+				The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None.
+			</p>
+
+				Syntax:
+				def functionname( parameters ):
+				   "function_docstring"
+				   	function_suite
+				   	return [expression]
+				 def say_hello(name): (name is what we are passing in)
+			    	 greeting = "Hello " + name + "!"
+			    	 return greeting
+				print say_hello("Pamela")
+				print say_hello("David")
+
+				def say_hello(name):
+    			greeting = "Hello " + name + '!'
+    			return greeting
+				# In the previous example, you saw code that looked like what you see above.
+				# Look at the first line. In that line, 'name' is a "parameter"
+				# of the function say_hello
+
+				# In the code below, the add_two_numbers function has two parameters.
+				# What do you think will happen when you press "Test Run"?
+				# Make a prediction and then press "Test Run"
+				def add_two_numbers(number_1, number_2):
+				    return number_1 + number_2
+
+				print add_two_numbers(4, 3)
+				print add_two_numbers(2, 6)
+				print add_two_numbers(0, 9)
+
+				# Once you've pressed Test Run, remove the comment characters from the 
+				# code below and then make ONE modification so that the function does 
+				# what the name says it should do.
+
+				def subtract_two_numbers(number_1, number_2):
+				    return number_1 - number_2
+
+				print subtract_two_numbers(4, 3)
+			</div>
+
+				<b>Functions are made to take input, do something with it, and then produce output, they can be used for any type
+				of input and can be used over and over, they must have return statement to avoid 'none' condition.</b>
+
+			
+				<b>Needs a return to return something other than none</b>
+				<div class="screenshot"><img src="images2/Function_some_returnsNoneWOreturn.JPG"  alt="can't load"></div>
+			
+				<div class="screenshot"><img src="images2/immutable.JPG"  alt="can't load"></div>
+
+				<div class="screenshot"><img src="images2/generate_code.JPG"  alt="can't load"></div>
+ 	</div> <!---this closes last body!-->
+	
+
+		
+</html>

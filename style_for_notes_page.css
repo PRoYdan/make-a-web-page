@@ -1,0 +1,38 @@
+/* This is a CSS comment.*/
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+
+The red border is uses for decoding
+*/
+
+
+ /* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+
+Box Positioning
+
+Divs are block elements (as opposed to inline), so by default they take up the entire width of a page.
+Adding the rule display: flex; to the appropriate CSS will override this behavior and let divs appear next to each other.*/
+ .box{box-sizing: border-box;}
+.banner{max-width:800px;color: blue;font-weight: bold;font-size: large;text-decoration: underline;}
+.bannerpurple{max-width: 705px;color:purple;font-weight: bold}
+.body{max-width: 705px;color: black;}
+.app {display: flex; }
+.background{background:rgb(232,232,232)}
+.background2{background:rgb(255, 228, 196);}
+.righthalf{border-right-width: 200px}
+
+
+.screenshot {max-width: 200px;
+}
+.description {max-width: 705px;
+	color: black;
+}
+.codeintext{max-width: 705px;color: black}
+
